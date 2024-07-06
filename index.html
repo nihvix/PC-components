@@ -4,19 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
     <title>DREAMED PC</title>
 </head>
 
 <body>
-    <!--BLOQUE ENUNCIADO-->
+    <!--BLOQUE CABECERA-->
     <header>
-        <p>BUILD YOUR DREAMED PC!</p>
+        <h2>BUILD YOUR DREAMED PC!</h2>
     </header>
-    <div id="intro">
-        <p>Have you ever thought about which components should have your dreamed pc? Now you can simulate it!
-            Hold your mouse over the product to see the info and then...
-            Just try to drag and drop some of these elements in the shopping cart to see the final price!</p>
-    </div>
 
     <!--BLOQUE DE COMPONENTES-->
     <div id="components">
@@ -132,30 +129,37 @@
             </tr>
         </table>
     </div>
+    <!--BLOQUE ZONA DE LA DERECHA-->
+    <div class="rightZone">
 
-    <!--BLOQUE DE CESTA DE LA COMPRA-->
-    <div id="cart">
-        <p>SHOPPING CART</p>
-        <div id="selectedGrid">
-            <img class="product" src="./img/product.png" alt="product">
-            <img class="product" src="./img/product.png" alt="product">
-            <img class="product" src="./img/product.png" alt="product">
-            <img class="product" src="./img/product.png" alt="product">
-            <img class="product" src="./img/product.png" alt="product">
-            <img class="product" src="./img/product.png" alt="product">
+        <div id="intro">
+            <pre>
+                Have you ever thought about which components should have your dreamed pc? Now you can simulate it!
+                Hold your mouse over the product to see the info and then... Just try to drag and drop some of these elements in the shopping cart to see the final price!
+            </pre></div>
+        <!--BLOQUE DE CESTA DE LA COMPRA-->
+        <div id="cart">
+            <p>SHOPPING CART</p>
+            <div id="selectedGrid">
+                <img class="product" src="./img/product.png" alt="product">
+                <img class="product" src="./img/product.png" alt="product">
+                <img class="product" src="./img/product.png" alt="product">
+                <img class="product" src="./img/product.png" alt="product">
+                <img class="product" src="./img/product.png" alt="product">
+                <img class="product" src="./img/product.png" alt="product">
+            </div>
+        </div>
+
+        <!--BLOQUE TICKET-->
+        <div id="ticket">
+            <p>TICKET</p>
+            <p>Selected products: </p>
+            <div class="ticketList"></div>
+            <div class="total">
+                <p>Total... <span class="totalPrice">0</span> €</p>
+            </div>
         </div>
     </div>
-
-    <!--BLOQUE TICKET-->
-    <div id="ticket">
-        <p>TICKET</p>
-        <p>Selected products: </p>
-        <div class="ticketList"></div>
-        <div class="total">
-            <p>Total... <span class="totalPrice">0</span> €</p>
-        </div>
-    </div>
-
     <!--BLOQUE CRÉDITOS-->
     <footer>
         <p>Project proposed by Mastermind courses (HTML, CSS & JS course), created and designed by Inma Quesada.</p>
