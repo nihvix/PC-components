@@ -34,24 +34,23 @@ header {
   width: 40%;
 }
 
-.mainTitle{
+.mainTitle {
   color: brown;
   font-size: 20px;
   font-weight: 700;
   padding: 5px 10px 10px 10px;
 }
 
-.title td{
+.title td,
+#cart p {
   background-color: rgb(156, 55, 8);
-  color:white;
-  padding:5px;
+  color: white;
+  padding: 5px;
   font-weight: bold;
   letter-spacing: 2px;
 }
 
-table{
-  
-}
+table {}
 
 /*====================
     Bloque derecho  
@@ -60,7 +59,7 @@ table{
 #intro {
   margin: 2% 1% 2% 2%;
   text-align: left;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.1;
 }
 
@@ -81,6 +80,12 @@ table{
   margin: 10px;
 }
 
+#selectedGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
 /*====================
     Bloque ticket  
   ====================*/
@@ -88,6 +93,18 @@ table{
   background-image: url("../img/ticketpaper.jpg");
   padding: 10px;
   margin: 10px;
+  font-size: 18px;
+}
+
+#ticket p {
+  padding: 5px;
+}
+
+.ticketTitle {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px;
+  letter-spacing: 2px;
 }
 
 /*====================
