@@ -31,6 +31,26 @@ header {
   border: 2px solid rgb(156, 55, 8);
   padding: 10px;
   margin: 30px 20px 20px 20px;
+  width: 40%;
+}
+
+.mainTitle{
+  color: brown;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 5px 10px 10px 10px;
+}
+
+.title td{
+  background-color: rgb(156, 55, 8);
+  color:white;
+  padding:5px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+table{
+  
 }
 
 /*====================
@@ -47,9 +67,8 @@ header {
 .rightZone {
   position: relative;
   float: left;
-  width: 80%;
+  width: 40%;
 }
-
 
 /*====================
     Bloque carrito  
