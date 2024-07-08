@@ -10,6 +10,12 @@ body {
   font-family: 'Kanit', sans-serif;
 }
 
+main {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2%;
+}
+
 /*====================
     Bloque cabecera  
   ====================*/
@@ -41,17 +47,19 @@ header {
   font-weight: 700;
   padding: 5px 10px 10px 10px;
 }
-#mainContainer{
+
+#mainContainer {
   display: flex;
   flex-flow: row wrap;
 }
 
-.container{
+.container {
   margin: 5% auto 5% auto;
 }
-.title{
-  background-color:  rgb(156, 55, 8);
-  padding:5px;
+
+.title {
+  background-color: rgb(156, 55, 8);
+  padding: 5px;
   font-size: 18px;
   text-align: center;
   color: whitesmoke;
@@ -59,22 +67,22 @@ header {
   /*border-radius: 45%;*/
 }
 
-.draggableRow{
+.draggableRow {
   display: flex;
   flex-flow: row wrap;
 }
 
-.draggableRow p{
+.draggableRow p {
   display: flex;
   justify-content: space-around;
 }
 
-.draggableItem{
+.draggableItem {
   margin: 5px 4px 0 4px;
 }
 
 /*Se aplica a todas las imágenes de productos*/
-.product{
+.product {
   width: 55px;
 }
 
@@ -117,7 +125,7 @@ header {
 #selectedGrid {
   margin: 2%;
   display: flex;
-  flex-flow:row wrap;
+  flex-flow: row wrap;
   justify-content: space-around;
 }
 
@@ -144,7 +152,8 @@ header {
   margin: 10px;
   letter-spacing: 2px;
 }
-.total{
+
+.total {
   font-weight: bold;
 }
 
@@ -159,14 +168,16 @@ footer {
   color: whitesmoke;
   line-height: 1.1;
 }
-footer p{
-  padding:0.25% 0 0 2%;
+
+footer p {
+  padding: 0.25% 0 0 2%;
 }
 
-a{
-  color:rgb(255, 217, 0);
+a {
+  color: rgb(255, 217, 0);
   text-decoration: none;
 }
-a:visited{
+
+a:visited {
   color: aqua;
 }
