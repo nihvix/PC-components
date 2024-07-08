@@ -7,6 +7,7 @@
 body {
   box-sizing: border-box;
   background-color: rgb(252, 244, 235);
+  font-family: 'Kanit', sans-serif;
 }
 
 /*====================
@@ -17,7 +18,7 @@ header {
   color: whitesmoke;
   text-align: center;
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 800;
   padding: 12px;
 }
 
@@ -40,16 +41,42 @@ header {
   font-weight: 700;
   padding: 5px 10px 10px 10px;
 }
-
-.title td,
-#cart p {
-  background-color: rgb(156, 55, 8);
-  color: white;
-  padding: 5px;
-  font-weight: bold;
-  letter-spacing: 2px;
+#mainContainer{
+  display: flex;
+  flex-flow: row wrap;
 }
 
+.container{
+  margin: 5% auto 5% auto;
+}
+.title{
+  background-color:  rgb(156, 55, 8);
+  padding:5px;
+  font-size: 18px;
+  text-align: center;
+  color: whitesmoke;
+  letter-spacing: 2px;
+  /*border-radius: 45%;*/
+}
+
+.draggableRow{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.draggableRow p{
+  display: flex;
+  justify-content: space-around;
+}
+
+.draggableItem{
+  margin: 5px 4px 0 4px;
+}
+
+/*Se aplica a todas las imágenes de productos*/
+.product{
+  width: 55px;
+}
 
 /*====================
     Bloque derecho  
@@ -79,9 +106,19 @@ header {
   margin: 10px;
 }
 
+#cart p {
+  background-color: rgb(156, 55, 8);
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
 #selectedGrid {
+  margin: 2%;
   display: flex;
   flex-flow:row wrap;
+  justify-content: space-around;
 }
 
 /*====================
@@ -93,6 +130,7 @@ header {
   background-size: cover;
   padding: 10px;
   margin: 10px;
+  font-family: 'Kode Mono', sans-serif;
   font-size: 15px;
 }
 
@@ -102,7 +140,7 @@ header {
 
 .ticketTitle {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 900;
   margin: 10px;
   letter-spacing: 2px;
 }
@@ -123,4 +161,12 @@ footer {
 }
 footer p{
   padding:0.25% 0 0 2%;
+}
+
+a{
+  color:rgb(255, 217, 0);
+  text-decoration: none;
+}
+a:visited{
+  color: aqua;
 }
