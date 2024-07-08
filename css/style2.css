@@ -61,19 +61,11 @@ header {
   display: flex;
   flex-flow: row wrap;
 }
-.draggableRow .product{
+
+/*Se aplica a todas las imágenes de productos*/
+.product{
   width: 55px;
 }
-/*
-.title td,S
-#cart p {
-  background-color: rgb(156, 55, 8);
-  color: white;
-  padding: 5px;
-  font-weight: bold;
-  letter-spacing: 2px;
-}*/
-
 
 /*====================
     Bloque derecho  
@@ -101,6 +93,14 @@ header {
   border: 2px solid rgb(156, 55, 8);
   padding: 10px;
   margin: 10px;
+}
+
+#cart p {
+  background-color: rgb(156, 55, 8);
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
 
 #selectedGrid {
