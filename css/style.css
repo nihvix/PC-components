@@ -30,7 +30,7 @@ header {
   background-color: white;
   border: 2px solid rgb(156, 55, 8);
   padding: 10px;
-  margin: 30px 20px 20px 20px;
+  margin: 20px 20px 20px 20px;
   width: 40%;
 }
 
@@ -57,9 +57,9 @@ table {}
   ====================*/
 
 #intro {
-  margin: 2% 1% 2% 2%;
+  margin: 20px 1% 2% 2%;
   text-align: left;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 1.1;
 }
 
@@ -81,9 +81,8 @@ table {}
 }
 
 #selectedGrid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  display: flex;
+  flex-flow:row wrap;
 }
 
 /*====================
@@ -93,7 +92,7 @@ table {}
   background-image: url("../img/ticketpaper.jpg");
   padding: 10px;
   margin: 10px;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 #ticket p {
