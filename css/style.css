@@ -50,7 +50,6 @@ header {
   letter-spacing: 2px;
 }
 
-table {}
 
 /*====================
     Bloque derecho  
@@ -90,6 +89,8 @@ table {}
   ====================*/
 #ticket {
   background-image: url("../img/ticketpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 10px;
   margin: 10px;
   font-size: 15px;
@@ -105,6 +106,9 @@ table {}
   margin: 10px;
   letter-spacing: 2px;
 }
+.total{
+  font-weight: bold;
+}
 
 /*====================
     Bloque créditos  
@@ -116,4 +120,7 @@ footer {
   background-color: rgb(156, 55, 8);
   color: whitesmoke;
   line-height: 1.1;
+}
+footer p{
+  padding:0.25% 0 0 2%;
 }
