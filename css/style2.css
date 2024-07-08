@@ -1,0 +1,152 @@
+/*========================================
+                HOJA DE ESTILO  
+  ========================================*/
+/*====================
+        General  
+  ====================*/
+body {
+  box-sizing: border-box;
+  background-color: rgb(252, 244, 235);
+}
+
+/*====================
+    Bloque cabecera  
+  ====================*/
+header {
+  background-color: rgb(156, 55, 8);
+  color: whitesmoke;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 12px;
+}
+
+
+/*====================
+    Bloque componentes  
+  ====================*/
+#components {
+  float: left;
+  background-color: white;
+  border: 2px solid rgb(156, 55, 8);
+  padding: 10px;
+  margin: 20px 20px 20px 20px;
+  width: 40%;
+}
+
+.mainTitle {
+  color: brown;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 5px 10px 10px 10px;
+}
+#mainContainer{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.container{
+  margin: 5% auto 5% auto;
+}
+.title{
+  background-color:  rgb(156, 55, 8);
+  padding:5px;
+  font-size: 18px;
+  text-align: center;
+  color: whitesmoke;
+  letter-spacing: 2px;
+}
+
+.draggableRow{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+/*Se aplica a todas las imágenes de productos*/
+.product{
+  width: 55px;
+}
+
+/*====================
+    Bloque derecho  
+  ====================*/
+
+#intro {
+  margin: 20px 1% 2% 2%;
+  text-align: left;
+  font-size: 15px;
+  line-height: 1.1;
+}
+
+.rightZone {
+  position: relative;
+  float: left;
+  width: 40%;
+}
+
+/*====================
+    Bloque carrito  
+  ====================*/
+
+#cart {
+  background-color: white;
+  border: 2px solid rgb(156, 55, 8);
+  padding: 10px;
+  margin: 10px;
+}
+
+#cart p {
+  background-color: rgb(156, 55, 8);
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+#selectedGrid {
+  margin: 2%;
+  display: flex;
+  flex-flow:row wrap;
+  justify-content: space-around;
+}
+
+/*====================
+    Bloque ticket  
+  ====================*/
+#ticket {
+  background-image: url("../img/ticketpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+  margin: 10px;
+  font-size: 15px;
+}
+
+#ticket p {
+  padding: 5px;
+}
+
+.ticketTitle {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px;
+  letter-spacing: 2px;
+}
+.total{
+  font-weight: bold;
+}
+
+/*====================
+    Bloque créditos  
+  ====================*/
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(156, 55, 8);
+  color: whitesmoke;
+  line-height: 1.1;
+}
+footer p{
+  padding:0.25% 0 0 2%;
+}
