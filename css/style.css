@@ -20,11 +20,12 @@ main {
     Bloque cabecera  
   ====================*/
 header {
-  background-color: rgb(156, 55, 8);
+  background-color: rgb(210, 57, 1);
   color: whitesmoke;
   text-align: center;
   font-size: 30px;
   font-weight: 800;
+  letter-spacing: 3px;
   padding: 12px;
 }
 
@@ -58,7 +59,7 @@ header {
 }
 
 .title {
-  background-color: rgb(156, 55, 8);
+  background-color: rgb(210, 57, 1);
   padding: 5px;
   font-size: 18px;
   text-align: center;
@@ -115,7 +116,7 @@ header {
 }
 
 #cart p {
-  background-color: rgb(156, 55, 8);
+  background-color: rgb(210, 57, 1);
   color: white;
   padding: 5px;
   font-weight: bold;
@@ -161,9 +162,10 @@ header {
     Bloque créditos  
   ====================*/
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
+  padding:0.5% auto 0.5% auto;
   background-color: rgb(156, 55, 8);
   color: whitesmoke;
   line-height: 1.1;
