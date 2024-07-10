@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', (ev) => {
             item.addEventListener('dragover', e => { e.preventDefault(); });
             item.addEventListener('drop', (item) => {
                   console.log("item src: "+item.src);
-                  item.src = productImg.src;
+                  item.target.src = productImg.src;
                   console.log("item src: "+item.src);
                   console.log("productImg src: "+productImg.src);
                   console.log("change");
