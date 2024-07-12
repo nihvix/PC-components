@@ -82,7 +82,8 @@ header {
   margin: 5px 4px 0 4px;
 }
 
-.product, .cartProduct {
+.product,
+.cartProduct {
   width: 55px;
 }
 
@@ -155,6 +156,10 @@ header {
 
 .total {
   font-weight: bold;
+}
+
+#ticketList {
+  padding-left: 20px;
 }
 
 /*====================
