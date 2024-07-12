@@ -82,8 +82,7 @@ header {
   margin: 5px 4px 0 4px;
 }
 
-/*Se aplica a todas las imágenes de productos*/
-.product {
+.product, .cartProduct {
   width: 55px;
 }
 

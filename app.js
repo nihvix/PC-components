@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', (ev) => {
             })
       }
       //Añadimos la funcionalidad sobre los contenedores del carrito para soltar los productos
-      productCart = document.getElementsByClassName("product");
+      productCart = document.getElementsByClassName("cartProduct");
       for (let item of productCart) {
             item.addEventListener('dragover', e => { e.preventDefault(); });
             item.addEventListener('drop', (item) => {
